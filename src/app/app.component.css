@@ -54,10 +54,11 @@ p{
 .text{
   color: antiquewhite;
   font-size: 46px;
-  margin: 10px;
+  margin-top: 10px;
+
   font-style: bold;
   text-align: center;
-  height: 60px;
+
 }
 
 li{
@@ -71,33 +72,47 @@ li{
 
 .row1{
   padding: 0px;
-  background-color: rgb(54, 103, 160);
-  height:98px;
+  background-color: #3b5998;
+  border-bottom: 1px solid #133783;
+
+
 }
 
 .row2{
-  height: 554px;
-  background-color: rgb(213, 226, 226)
+  min-height: 560px;
+  background: linear-gradient(white, #D3D8E8);
+
 }
 .Login{
-  background-color: rgb(15, 63, 109);
+  background-color: #4267b2;
+  border-color: #1b3563;
+  border: 1px solid #ccd0d5;
+
   color: antiquewhite;
   border-color: black;
-  padding: 5px;
+  padding: 2px 6px;
+
   font-size:12px;
+  font-weight: bold;
+
   border: none;
-  border-radius: 3px;
+  border-radius: 2px;
+
   cursor: pointer;
   margin-left: 10px;
 
 }
 input{
   font-size: 11px;
-  padding: 0;
-  margin: 0px;
+
+}
+
+.loginDetails div li input[type="text"]{
+  border: 1px solid black;
+
 }
 .row3{
-  height: 200px;
+
   background-color: rgb(255, 255, 255)
 }
 h6{
@@ -117,7 +132,7 @@ h6{
 
 .loginDetails div{
   display: inline-table;
-  margin: 20px;
+  margin: 15px;
 }
 .row2div1{
   padding-left:60px;
@@ -136,12 +151,147 @@ h6{
 .text2{
   padding-top: 20px;
   padding-bottom:20px;
-  padding-left: 10px;
+
 }
 
+h5{
+  color: red;
+  font-size: 13px;
+}
+.lastnameValidation{
+
+  position:relative;
+  margin-left: 50%;
+  top: -22px;
+}
 .form .username input{
   font-size: 15px;
   border-radius: 5px;
   border-style: ridge ;
   margin-right: 30px;
+  height:39px;
+
+}
+
+.formEmailInput input{
+  width: 94%;
+  margin-top: 10px;
+  font-size: 15px;
+  height: 39px;
+  border-radius: 6px;
+  border-style: ridge;
+}
+
+.birthdaytext{
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.gendertext{
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.termAndCondition{
+ font-size: 11px;
+ width: 304px;
+ margin-top: 20px;
+}
+
+.signupButton{
+border: 1px solid;
+border-radius:5px;
+color: white;
+cursor: pointer;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+background: linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+
+margin-top: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 60px;
+padding-left: 60px;
+margin-bottom: 32px;
+}
+
+.row3div1{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 70%
+}
+
+.row3div1 li{
+  padding-right: 10px;
+  color: rgb(35, 97, 231);
+  font-size: 13px;
+}
+
+.contentCurve{
+
+  font-size: 1px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.list2{
+  font-size: 13px;
+  color: rgb(35, 97, 231)
+}
+
+.gendertext span span {
+  padding-right: 10px;
+}
+
+.gendertext div {
+  margin-bottom: 10px;
+}
+
+.birthdaySelection{
+  margin-top: 10px;
+}
+label{
+  padding-left:10px;
+}
+.lastText{
+  font-size:13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.row2col1text{
+  color: #0e385f;
+  font-size:20px;
+  font-weight: bold;
+  line-height: 29px;
+  word-spacing: -1px;
+}
+.engilsh li{
+  color: #494a4d
+}
+.row2lasttext{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+select{
+  border: 1px solid #ccd0d5;
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+  background-color: #fff;
+
+
+}
+
+option{
+  font-size: 13px;
+}
+.column2{
+  margin-left:43px;
 }
