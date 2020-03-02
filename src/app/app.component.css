@@ -62,7 +62,7 @@ p{
 }
 
 li{
-  display: inline
+  display: inline-flex
 }
 .LoginInput{
   margin-top: 21px;
